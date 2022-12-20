@@ -1,0 +1,18 @@
+4a) 1. S-RAM 2. D-Ram
+ b) Das gespeicherte Bit befindet sich in den Mos M1,M2,M3 und M4. Diese Transistoren implementeieren eine Selbsthaltung, wodurch das gespeicherte Bit nicht verloren geht.
+	Bei Schaltung 2 hingegen, wird das Bit im Kondensator gespeichert, ist dieser geladen, so wird der Wert 1 gespeichert. Durch schließen des Transistors M1 kann der Wert
+	gelesen/geschrieben werden.
+ c) i. Schaltung 1 (sram) ist sehr viel größer als Schaltung 2 (dram) da Schaltung bedeutend komplexer.
+    ii. 1) Wenig, da MOSFETS wenn diese geschaltet sind sehr wenig Strom verbrauchen
+	2) Viel, da Kondensator Spannung verliert und deshalb immer neu geladen werden muss. 
+ d) Der zu speichernde Zustand wird auf die Bitleitung gelegt, liegt zudem noch eine positive Spannung an der Wortleitung an, wird der Zustand gespeichert.
+	Zum lesen wird die Bitleitung kurz auf Masse geschalten und dann in den floating State gesetzt. Durch eine positive Spannung an der Wortleitung, wird der gespiecherte Zustand dann auf der Bitleitung ausgegeben.
+ e) SRAM wird im Prozessor als Cache verwendet.
+    DRAM wird im RAM (Hauptspeicher) des Computers verwendet.
+5a) Alle gezeigten Kabel arbeiten mit serieller Datenübertragung da Sub-D 9-Polig meist für RS-232 verwendet wird, welches Daten seriell überträgt. Typ2 ist ein Universal-Serial-Bus stecker.
+ b) 1) RS-232 2) USB (Typ A - Typ B)
+ c) USB ist mittlerweile weitverbreitet. Es bassiert auf serieller Datenübertragung mittels D+ und D- Leitungen, um eine hohe Abschirmung zu erreichen. Dadurch sind sehr hohe Datenraten möglich.
+ d) 1a ist ein Nullmodemkabel was zur Verbindung zweier Rechner dient (Sende und Empfangsleitungen werden gekreutzt)
+    1b und 2 sind zum Verbinden mit Peripherie Geräten, durch diese Stecker ist der Sender und Empfänger eindeutig definiert.
+ e) Beim Handshake synchronisieren sich die Teilnehmer um eine Fehlerfreie Übertragung zu ermöglichen. Beim Hardware Handshake existieren dedizierte Leitungen für den Handshake.
+Bei einem Software Handshake werden nur 3 Leitungen benötigt. Jedoch müssen beide Teilnehmer wissen, wie Sie einen Handshake verarbeiten müssen.
